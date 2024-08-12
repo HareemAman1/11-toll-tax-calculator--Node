@@ -1,15 +1,14 @@
-const express = require ('express')
-const tollRoutes = require('./routers/tollRoutes')
+const express = require("express");
+const tollRoutes = require("./routers/tollRoutes");
 
-const app = express()
+const app = express();
 const port = 3000;
 
-app.use(express.json())  //middleware
-app.use('/toll', tollRoutes)
+app.use(express.json()); //middleware
+app.use("/toll", tollRoutes);
 
 app.listen(port, () => {
-    console.log(`Listening server at port ${port}`);
-    
-})
+  console.log(`Listening server at port ${port}`);
+});
 
 module.exports = app;

@@ -11,12 +11,9 @@ const interchange = {
 const base = 20;
 const distanceRate = 0.2;
 const weekTax = 1.5;
-const holidays = ['03-23', '08-14', '12-25']
-
-   
+const holidays = ['03-23', '08-14', '12-25']  
 
 function calculateToll(entryPoint, exitPoint, date, numberPlate) {
-
 
     const entryDistance = interchange[entryPoint]
     const exitDistance = interchange[exitPoint]
@@ -49,7 +46,7 @@ function calculateToll(entryPoint, exitPoint, date, numberPlate) {
         }
     }
 
-    return { toll: toll };
+    return { toll };
 }
 
 

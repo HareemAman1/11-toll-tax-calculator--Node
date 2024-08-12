@@ -220,5 +220,68 @@
     "date": "2024-08-07",
     "numberPlate": "ABC-123",
     "toll": 21
+  },
+  {
+    "entryPoint": "Zero Point",
+    "exitPoint": "NS Interchange",
+    "date": "2024-08-14",
+    "numberPlate": "ABC-123",
+    "toll": 10.5
+  },
+  {
+    "entryPoint": "Zero Point",
+    "exitPoint": "NS Interchange",
+    "date": "2024-03-23",
+    "numberPlate": "ABC-123",
+    "toll": 10.5
+  },
+  {
+    "entryPoint": "Zero Point",
+    "exitPoint": "NS Interchange",
+    "date": "2024-12-25",
+    "numberPlate": "ABC-123",
+    "toll": 10.5
+  },
+  {
+    "entryPoint": "Zero Point",
+    "exitPoint": "NS Interchange",
+    "date": "2024-12-25",
+    "numberPlate": "ABC-123",
+    "toll": 10.5
+  },
+  {
+    "entryPoint": "Zero Point",
+    "exitPoint": "NS Interchange",
+    "date": "2024-12-25",
+    "numberPlate": "ABC-123",
+    "toll": 10.5
+  },
+  {
+    "entryPoint": "Zero Point",
+    "exitPoint": "NS Interchange",
+    "date": "2024-12-25",
+    "numberPlate": "ABC-123",
+    "toll": 10.5
+  },
+  {
+    "entryPoint": "Zero Point",
+    "exitPoint": "NS Interchange",
+    "date": "2024-10-25",
+    "numberPlate": "ABC-123",
+    "toll": 21
+  },
+  {
+    "entryPoint": "Zero Point",
+    "exitPoint": "NS Interchange",
+    "date": "2024-10-26",
+    "numberPlate": "ABC-123",
+    "toll": 21.5
+  },
+  {
+    "entryPoint": "Zero Point",
+    "exitPoint": "NS Interchange",
+    "date": "2024-10-28",
+    "numberPlate": "ABC-123",
+    "toll": 21
   }
 ]
