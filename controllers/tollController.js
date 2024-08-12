@@ -70,3 +70,5 @@ module.exports = { tollEntry, tollExit };
 //       res.status(200).json(exits);
 //   });
 // };
+
+// module.exports = { tollEntry, tollExit, getEntries, getExits};

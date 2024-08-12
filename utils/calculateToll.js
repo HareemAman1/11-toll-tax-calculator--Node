@@ -40,7 +40,7 @@ function calculateToll(entryPoint, exitPoint, date, numberPlate) {
         }
 
         // SAT & SUN  //additional charge
-        if (day === 6 || day === 0) {
+        else if (day === 6 || day === 0) {
             // toll *= weekTax;  
             toll += distanceTravelled * distanceRate * (weekTax - 1);
         }

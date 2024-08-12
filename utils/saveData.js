@@ -65,3 +65,5 @@ module.exports = {saveEntry, saveExit}
 //         callback(null, exits);
 //     });
 // }
+
+// module.exports = {saveEntry, saveExit, readEntriesFile, readExitsFile}
