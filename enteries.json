@@ -83,5 +83,22 @@
     "entryPoint": "Zero Point",
     "date": "2024-08-14",
     "numberPlate": "ABC-123"
+  },
+  {
+    "entryPoint": "Zero Point",
+    "date": "2024-08-14",
+    "numberPlate": "ABC-123"
+  },
+  {
+    "entryPoint": "Zero Point",
+    "date": "2024-08-14",
+    "numberPlate": "ABC-123"
+  },
+  {
+    "entryPoint": "Zero Point",
+    "exitPoint": "NS Interchange",
+    "date": "2024-08-14",
+    "numberPlate": "ABC-124",
+    "toll": 10.5
   }
 ]

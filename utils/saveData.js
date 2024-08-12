@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 
 const enteriesFilePath = path.join(__dirname, '../enteries.json')
-const exitsFilePath = path.join(__dirname, '../exits.json')
+// const exitsFilePath = path.join(__dirname, '../exits.json')
 
 
 ///////////// ENTRY POINT /////////////
@@ -20,13 +20,13 @@ function saveEntry(entry){
 ///////////// EXIT POINT /////////////
 function saveExit(exit){
     let exits = []
-    if (fs.existsSync(exitsFilePath)){
-        const data = fs.readFileSync(exitsFilePath)
+    if (fs.existsSync(enteriesFilePath)){
+        const data = fs.readFileSync(enteriesFilePath)
         exits = JSON.parse(data)
     }
     
     exits.push(exit)
-    fs.writeFileSync(exitsFilePath, JSON.stringify(exits, null, 2))
+    fs.writeFileSync(enteriesFilePath, JSON.stringify(exits, null, 2))
 }
 
 

@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 app.use(express.json()); //middleware
-app.use("/toll", tollRoutes);
+app.use("/", tollRoutes);
 
 app.listen(port, () => {
   console.log(`Listening server at port ${port}`);

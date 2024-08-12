@@ -18,5 +18,5 @@ module.exports = router;
 
 
 
-// router.get('/entries', getEntries);  
-// router.get('/exits', getExits);
+// router.get('/getentries', getEntries);  
+// router.get('/getexits', getExits);

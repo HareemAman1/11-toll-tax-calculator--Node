@@ -22,24 +22,28 @@ function calculateToll(entryPoint, exitPoint, date, numberPlate) {
 
     let toll = distanceRate * distanceTravelled + base;
 
+    // HOLIDAYS 
     const dateStr = date.slice(5);
     if (holidays.includes(dateStr)) {
         // toll /= 2;
         toll *= 0.5;
-    } else {
 
+    } else {
+        
         // MON & WED
         const lastDig = parseInt(numberPlate.split('-')[1]) % 2;
         if ((day === 1 || day === 3) && lastDig === 0) {
-            toll *= 0.1;
+            // toll *= 0.1;
+            toll *= 0.9;
         }
 
         // TUES & THURS
         else if ((day === 2 || day === 4) && lastDig !== 0) {
-            toll *= 0.1;
+            // toll *= 0.1;
+            toll *= 0.9;
         }
 
-        // SAT & SUN  //additional charge
+        // SAT & SUN
         else if (day === 6 || day === 0) {
             // toll *= weekTax;  
             toll += distanceTravelled * distanceRate * (weekTax - 1);
