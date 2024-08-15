@@ -62,6 +62,8 @@ module.exports = calculateToll
 
 
 
+
+
 // if (!interchange.hasOwnProperty(entryPoint) || !interchange.hasOwnProperty(exitPoint)) {
 //     return { error: 'Choose points from the list' };
 // }
